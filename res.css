@@ -25,7 +25,7 @@
     font-size: 14px;
   }
   .start-top {
-    font-size: 13px!important;
+    font-size: 12px!important;
   }
 
   .nexth {
@@ -55,6 +55,10 @@
   }
   .skill img {
     height: 40px;
+  }
+
+  .basic {
+    padding: 1rem;
   }
 
   .basic .text {
@@ -282,7 +286,9 @@
 }
 
 @media all and (max-width: 770px) {
-
+  .container {
+    padding: 0 12px;
+  }
 
   .zerod {
     display: block;
@@ -333,6 +339,9 @@
 
 
 
+
+
+
   .top {
     background-image: url(img/mainsp.jpg);
     font-size: .7em;
@@ -348,8 +357,22 @@
     font-size: .5em;
   }
   .next p {
-      font-size: 11px;
+    font-size: 14px;
+    padding-top: 0;
   }
+
+  .next {
+    height: 630px;
+  }
+
+  .nexth h2 {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+  .nexth br {
+    display: block;
+  }
+
   .pp br {
     display: none;
   }
@@ -358,7 +381,7 @@
   }
 
   .text h2 {
-    margin-bottom: 2rem;
+    margin: 2rem 0;
   }
   .bottom {
     padding: 2rem;
@@ -373,7 +396,8 @@
   }
 
   .qaqa p {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: bold;
   }
 
   .cool img {
@@ -452,15 +476,6 @@
   .side {
     font-size: 65%;
   }
-
-
-
-
-
-
-
-
-
 
 
 
