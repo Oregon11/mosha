@@ -336,6 +336,10 @@
   .fa-file-alt {
     font-size: 26px;
 }
+  
+  .next .container  {
+    padding: 0;
+  }
 
 
 
