@@ -881,15 +881,42 @@ header p {
   color: #016ea9;
   display: inline-block;
 }
-.manys a {
+.haha {
   color: #000000;
   font-weight: bold;
+  display: inline-block;
+}
+.show {
+  position: relative;
+  width: 100%;
 }
 
-.manys li {
+.show span {
+  position:absolute;
+  top: 20px;
+  right: 20px;
+  color: #ccc;
+  font-size:23px;
+}
+
+#manys ul li {
   border: 2px solid #eee;
-  padding: 13px;
+  padding-left:13px;
   margin-bottom: .7rem;
+  max-width: 100%;
+  height: 100%;
+}
+#manys li:hover {
+  cursor: pointer;
+}
+#manys ul li p:hover {
+  text-decoration: underline;
+}
+
+.answer {
+  display: none;
+  font-weight: bold;
+  padding-left: 1.6rem;
 }
 
 .start-sns {
@@ -940,4 +967,39 @@ footer a {
 }
 .nexth br {
   display: none;
+}
+
+/* スクロール */
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 5px;
+  bottom: 5px;
+  background: #3f98ef;
+  opacity: 0.6;
+  border-radius: 50%;
+}
+#page_top a {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
 }
