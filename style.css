@@ -891,6 +891,12 @@ header p {
   width: 100%;
 }
 
+.answer {
+  display: none;
+  font-weight: bold;
+  padding-left: 1.6rem;
+}
+
 .show span {
   position:absolute;
   top: 20px;
@@ -911,12 +917,6 @@ header p {
 }
 #manys ul li p:hover {
   text-decoration: underline;
-}
-
-.answer {
-  display: none;
-  font-weight: bold;
-  padding-left: 1.6rem;
 }
 
 .start-sns {
