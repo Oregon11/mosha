@@ -905,6 +905,10 @@ header p {
   font-size:23px;
 }
 
+#manys ul {
+  padding: 0;
+}
+
 #manys ul li {
   border: 2px solid #eee;
   padding-left:13px;
