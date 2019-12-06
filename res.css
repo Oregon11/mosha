@@ -273,6 +273,13 @@
     margin-top: 3rem;
   }
 
+  /* スクロール */
+  .show span {
+    top: 13px;
+    right: 20px;
+  }
+
+
 
 
 
@@ -326,8 +333,8 @@
   }
 
   header p {
-
     margin: 0;
+    padding-right: 3.6rem;
     padding-top: 0;
     font-size: 13px;
     width: 100%;
@@ -336,15 +343,13 @@
   .fa-file-alt {
     font-size: 26px;
 }
-  
   .next .container  {
     padding: 0;
   }
 
-
-
-
-
+  .head-top {
+    height: 100%;
+  }
 
   .top {
     background-image: url(img/mainsp.jpg);
@@ -393,7 +398,7 @@
 
   .menber {
     width: 100%;
-    padding: 2.5rem .6rem .5rem .6rem;
+    padding: 2.5rem .6rem 3rem .6rem;
     height: 260px;
     font-size: 11px;
     margin-bottom: 6rem;
@@ -481,7 +486,19 @@
     font-size: 65%;
   }
 
+  /* スクロール */
+  .show span {
+    top: 14px;
+    right: 20px;
+  }
 
+  .haha {
+    margin-right: 2rem;
+  }
+
+  .answer {
+    padding-left: .6rem;
+  }
 
 
 
